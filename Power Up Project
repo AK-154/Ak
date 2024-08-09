@@ -1,1 +1,3 @@
-
+User().Image//This expression retrieves the image associated with the current user.
+"Hi " & User().FullName & "."//This expression concatenates the string "Hi" with the full name of the current user, followed by a period.
+Refresh(Table2);Refresh(Table1);ClearCollect(BrandCol,Table2);ClearCollect(InitiativesCol,Table1);ResetForm(Form2);NewForm(Form2);Navigate(PRFormScreen,ScreenTransition.Cover)//This expression refreshes Table2 and Table1, then clears and collects data from Table2 into BrandCol and data from Table1 into InitiativesCol. It also resets Form2, sets up Form2 as a new form, and navigates to the PRFormScreen with a Cover transition.
